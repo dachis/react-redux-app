@@ -15,7 +15,7 @@ import ContentAdd from "material-ui/svg-icons/content/add";
 import { readEvents } from '../actions';
 
 class EventsIndex extends Component {
-  componenTableRowColumnidMount() {
+  componentDidMount() {
     this.props.readEvents()
   }
 
